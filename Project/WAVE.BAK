@@ -1,0 +1,14 @@
+
+#include<wav.h>
+void main()
+{
+
+	int gd=DETECT, gm;
+	initgraph(&gd, &gm,"e:/tc/bgi ");
+	int retval=open();
+	fflush(stdin);
+	home();
+	getch();
+	closegraph();
+	restorecrtmode ();
+}
